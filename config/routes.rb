@@ -4,5 +4,5 @@ Rails.application.routes.draw do                         # ~> NameError: uniniti
   get "/auth/github/callback", to: "sessions#create"
   delete "/logout", to: "sessions#destroy", as: :logout
 
-  get "/users/repos", to: "repos#index" as: :repos
+  get "/users/repos", to: "repos#index", as: :repos
 end

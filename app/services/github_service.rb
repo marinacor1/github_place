@@ -15,7 +15,7 @@ class GithubService
   end
 
   def get_repos
-    @connection.get "/users/#{@user["screen_name"]}"
+    @connection.get "/users/repos"
   end
 
   def repo_hash

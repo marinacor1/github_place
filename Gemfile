@@ -10,7 +10,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'figaro'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'vcr'
 gem 'jbuilder', '~> 2.0'
+gem "webmock"
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 
@@ -18,6 +20,7 @@ gem 'unicorn'
 
 group :development, :test do
   gem 'byebug'
+gem 'database_cleaner'
   gem 'rspec-rails'
   gem 'pry'
 end
