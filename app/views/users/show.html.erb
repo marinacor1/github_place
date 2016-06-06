@@ -10,6 +10,7 @@
     <div class="col-md-4 user-texts">
       <p>Welcome, <%= current_user.screen_name %></p>
       <p>Name: <%= current_user.name %></p>
+      <p>All Repos: <%= link_to "Repo Index", repos_path %>
     </div>
   <% end %>
 </div>
